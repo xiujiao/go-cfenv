@@ -1,9 +1,9 @@
 package cfenv_test
 
 import (
-	. "github.com/cloudfoundry-community/go-cfenv"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/xiujiao/go-cfenv"
 )
 
 var _ = Describe("Environment", func() {

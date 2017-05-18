@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"os"
 
-	. "github.com/cloudfoundry-community/go-cfenv"
 	"github.com/mitchellh/mapstructure"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/xiujiao/go-cfenv"
 )
 
 var _ = Describe("Cfenv", func() {
